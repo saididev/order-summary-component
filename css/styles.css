@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: top / contain no-repeat url(../images/pattern-background-desktop.svg), linear-gradient(#e0e8ff, #e0e8ff);
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    position: relative;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+
+
+h1 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+
+
+h4 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+p {
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+
+/* Card Section */
+.card {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 450px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 22px 28px -5px hsl(245deg 75% 52% / 15%);
+}
+
+.hero-img {
+    display: block;
+}
+.container {
+    padding: 48px 50px;
+}
+
+.mid-container {
+    display: flex;
+    border-radius: 12px;
+    padding: 48px 20px;
+    justify-content: space-between;
+}
+
+.left-plan-box {
+    display: flex;
+}
+
+.pricing {
+    margin: 2px 0 0 15px;
+    text-align: left;
+}
+
+.pricing h2 {
+    color: hsl(223, 47%, 23%);
+    font-size: 0.98rem;
+    font-weight: 900;
+}
+
+.change-plan-btn {
+    background-color: hsl(225, 100%, 98%);
+    color: hsl(245, 75%, 52%);
+    border: none;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    text-decoration: underline;
+    font-size: 0.93rem;
+    cursor: pointer;
+    height: 20px;
+    margin-top: 15px;
+}
+
+.change-plan-btn:active {
+    opacity: 70%;
+    text-decoration: none;
+}
+
+
+.confirm-btn {
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 0.9rem;
+    border: none;
+    display: block;
+    width: 100%;
+    height: 49px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px -5px hsl(245deg 75% 52% / 45%);
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.confirm-btn:hover {
+    transform: scale(1.008);
+}
+
+.confirm-btn:active {
+    opacity: 70%;
+}
+
+.cancel-btn {
+    background-color: hsl(225, 100%, 98%);
+    color: hsl(224, 23%, 55%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 0.93rem;
+    border: none;
+    cursor: pointer;
+}
+
+.cancel-btn:active {
+    color: hsl(223, 47%, 23%);
+}
+
+
+/* Attribution Section */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+/* Mobile Responsive (375px) */
+@media (max-width: 375px) {
+    body {
+        background: top / contain no-repeat url(../images/pattern-background-mobile.svg), linear-gradient(#e0e8ff, #e0e8ff);
+
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .card {
+        width: 320px;
+    }
+
+    .hero-img {
+        width: 100%;
+    }
+
+    .container {
+        padding: 30px 28px;
+    }
+
+    .mid-container {
+        padding: 40px 15px;
+    }
+
+    .pricing {
+        font-size: 0.88rem;
+    }
+
+    .pricing h2 {
+        font-size: 0.88rem;
+    }
+
+    .change-plan-btn {
+        font-size: 0.85rem;
+    }
+
+    .bot-container {
+        margin-bottom: 0;
+    }
+
+    footer {
+        font-size: 0.75rem;
+    }
+
+}
