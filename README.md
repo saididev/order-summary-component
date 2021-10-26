@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [live site](https://saididev.github.io/order-summary-component/)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/order-summary-component-desktop-and-mobile-responsive-PB4Na8KJO)
 
 ## My process
 
