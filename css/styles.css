@@ -37,6 +37,10 @@ p {
     font-weight: 500;
 }
 
+button {
+    transition: all 0.2s;
+}
+
 
 /* Card Section */
 .card {
@@ -55,14 +59,17 @@ p {
     display: block;
 }
 .container {
+    background-color: #fff;
     padding: 48px 50px;
 }
 
 .mid-container {
     display: flex;
     border-radius: 12px;
-    padding: 48px 20px;
+    margin: 30px 0;
+    padding: 30px 10px;
     justify-content: space-between;
+    width: 100%;
 }
 
 .left-plan-box {
@@ -72,6 +79,7 @@ p {
 .pricing {
     margin: 2px 0 0 15px;
     text-align: left;
+    width: 100%;
 }
 
 .pricing h2 {
